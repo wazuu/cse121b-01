@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Local Weather</h1>
+      </div>
+      <div class="navbar">
+        <a href="#home">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">Extras
+            <i class="down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="https://www.w3schools.com/html/html_basic.asp">Html Basics</a>
+            <a href="https://www.w3schools.com/Css/">Css Basics</a>
+            <a href="https://www.w3schools.com/js/js_examples.asp">Javascript Basics</a>
+          </div>
+        </div> 
+      </div>
+      
+      <div class="row">
+        <div class="side">
+          <h2>This Is Me</h2>
+          <img src="images/WIN_20210916_20_27_49_Pro.jpg" alt="pic of me" style="width:400px;height:300px;">
+          <p>Hi, my name is Tim Smith. I live in Pullman, Washington with my wife, four children, our dog, and cat. We enjoy
+              spending time outdoors in nature as well as on the water. I am currently at BYU-Idaho obtaining a bechelors degree 
+              in Applied Technology. I will be graduating in April of 2023. Thanks for taking a look at my site that I have created for 
+              my JavaScript class. Enjoy!
+          </p>
+          <h3>Where you can find me: </h3>
+        </a><a href = "https://www.linkedin.com/in/tim-smith-6a898495/">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" alt="LinkedIn" style="width:100px;height:100px;" class = "logo2">
+        </a>
+        </div>
+    <div class="container-fluid">
+        
+
+      <h1>What city would you like to see the weather for? </h1>
+
+            <section class="main">
+
+    
+            <section class="inputs">
+                <input type="text" placeholder="Enter any city..." id="cityinput">
+                <input type="submit" value="Submit" id="add">
+            <button placeholder="submit" id="add"></button>
+            </section>
+
+     
+            <section class="display">
+                <div class="wrapper">
+                    <h2 id="city_data"></h2>
+                    <p id="temp"></p>
+                    <p id="description"></p>
+                    <p id="humidity"></p>
+                    <p id="wind"></p>
+
+                </div>
+            </section>
+            </section>
+
+    </div>
+
+    <script src="weatherscript.js"></script>
+    
+</body>
+</html>
+
